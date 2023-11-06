@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+# 🗣 서울 ICT 이노베이션 스퀘어 블록체인 NFT 개발 과정
+| Name | Role(s) | Blog |
+|---|:---:|---|
+| 권창범 | 백엔드 블록체인 NFT 개발  | [GitHub](https://github.com/7eerup) <br> [프로제트](https://github.com/7eerup/nft-vault) </br> |
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<br>
+<br>
 
-In the project directory, you can run:
 
-### `npm start`
+## React 기본 웹 구현 x MetaMask 연결
+<img width="800" alt="스크린샷 2023-11-05 오전 11 47 05" src="/Users/7eerup/Desktop/nft-vault/images/스크린샷 2023-11-05 오전 11.47.05.png">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<br>
+<br>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## RPC URL 블록체인 네트워크 통신
++ web3.js (Polygon Mumbai) <br>
+<img width="800" alt="스크린샷 2023-11-05 오전 11 47 05" src="/Users/7eerup/Desktop/nft-vault/images/스크린샷 2023-11-06 오후 12.06.43.png">
+<br>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
++ Block 조회 <br>
+<img width="800" alt="스크린샷 2023-11-05 오전 11 47 05" src="/Users/7eerup/Desktop/nft-vault/images/스크린샷 2023-11-06 오후 12.08.30.png">
+<br>
 
-### `npm run build`
++ ethers.js Transaction <br>
+<img width="800" alt="스크린샷 2023-11-05 오전 11 47 05" src="/Users/7eerup/Desktop/nft-vault/images/스크린샷 2023-11-06 오후 12.09.43.png">
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<br>
+<br>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## ABI 컨트랙트 네트워크 상호작용
+getHelloWorld
+<br><img width="800" alt="스크린샷 2023-11-05 오전 11 47 05" src="/Users/7eerup/Desktop/nft-vault/images/스크린샷 2023-11-06 오전 8.31.25.png">
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<br>
+<br>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+setHelloWorld
+<br><img width="800" alt="스크린샷 2023-11-05 오전 11 47 05" src="/Users/7eerup/Desktop/nft-vault/images/스크린샷 2023-11-06 오전 8.33.33.png">
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+<br>
+<br>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 블록체인 개발 도구
+Pinata<br>
+<img width="800" alt="스크린샷 2022-11-09 오후 3 35 49" src="/Users/7eerup/Desktop/nft-vault/images/스크린샷 2023-11-06 오후 12.55.38.png">
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+<br>
+<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+## Learn More Unit Class <br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+#### 블록체인 지갑 설치 실습
+[My-Ether-Wallet & Geth Wallet](https://7eerup.notion.site/29d4e833f6944150b5e10b8105013e6d?pvs=4)<br>
+[Klaytn Wallet](https://7eerup.notion.site/KLAY-Wallet-Testnet-4569cdbc11e8427ab38382b1cbbaceed?pvs=4)<br>
+[Mnemonic Wallet](https://7eerup.notion.site/Mnemonic-Wallet-2b693fb785ed4909b4a7a7e1db33b58d?pvs=4)<br>
+[ERC-20 스마트 컨트랙트](https://7eerup.notion.site/ERC-20-6adc8934fecf4842ac616d2cbf2d21f1?pvs=4)<br>
+[Infura 실습](https://7eerup.notion.site/Infura-io-420529816d7a442981fd911a96eccd28?pvs=4)<br>
+<br>
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#### 블록체인 개발 도구 실습
+[Ganache 설치](https://7eerup.notion.site/Ganache-3f140530a66d40cc9fe388b57e17178e?pvs=4)<br>
+[Truffle 설치](https://7eerup.notion.site/Truffle-d92f6a859e6142ea9b8c85e768d45791?pvs=4)<br>
+[IPFS 설치](https://7eerup.notion.site/IPFS-68987dc5e4fa4f76830ebe5382212824?pvs=4)<br>
+[Pinata 설치](https://7eerup.notion.site/Pinata-513d1c4f20f7473a9a389425869237aa?pvs=4)<br>
